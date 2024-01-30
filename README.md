@@ -16,7 +16,8 @@ As a developer, I want a Java program to concurrently evaluate mathematical expr
 - **Math.js API**: Web API (https://api.mathjs.org/v4/) used for mathematical expression evaluation.
 - **ExecutorService**: Utilized for concurrent processing of expression evaluations.
 - **File Input/Output**: Read expressions from a file and print results.
-- **Rate Limiting**: Implemented a rate limiter to control the number of API requests.
+- **Rate Limiting**: Implemented a rate limiter to control the number of requests made to the API.
+- **Concurrency Handling**: Strategy employed to gracefully handle scenarios where concurrent requests exceed the application's capacity. 
 
 ## Rate Limiting
 
