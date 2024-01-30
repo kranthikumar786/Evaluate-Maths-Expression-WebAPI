@@ -18,12 +18,6 @@ As a developer, I want a Java program to concurrently evaluate mathematical expr
 - **File Input/Output**: Read expressions from a file and print results.
 - **Rate Limiting**: Implemented a rate limiter to control the number of API requests.
 
-## Usage
-
-1. Clone the repository.
-2. Provide a file with mathematical expressions as input.
-3. Run the program to evaluate expressions concurrently using the specified rate limit.
-
 ## Rate Limiting
 
 The program includes a rate limiter to control the number of requests made to the API. It uses a token-based approach, ensuring a maximum of 500 requests per second.
